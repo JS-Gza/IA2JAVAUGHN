@@ -65,7 +65,7 @@ function clearInvoice() {
 function checkout() {
     alert("Thanks for purchasing");  // Alert the user with a thank you message
     clearInvoice();  // Clear the invoice and cart
-    window.location.href = 'index.html';  // Navigate back to the home page
+    window.location.href = 'home.html';  // Navigate back to the home page
 }
 function addToCart(name, price) {
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
