@@ -75,7 +75,7 @@ footer {
     box-sizing: border-box;
 }
 .cart-icon {
-    width: 30px; /* Adjust size as necessary */
+    width: 30px; /* Adjust size */
     height: auto;
     margin-left: 20px;
 }
@@ -96,7 +96,7 @@ footer {
 }
 
 .product {
-    width: calc(33.333% - 40px); /* Adjusting width to accommodate 3 products per row */
+    width: calc(33.333% - 40px); 
     margin: 20px;
     text-align: center;
     border: 1px solid #ccc;
@@ -112,29 +112,29 @@ footer {
     border-radius: 5px; /* Adds rounded corners to the images */
 }
 .product {
-    width: 300px;  /* Fixed width for all product containers */
-    margin: 20px;  /* Spacing between product containers */
+    width: 300px;  
+    margin: 20px;  
     text-align: center;
     border: 1px solid #ccc;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;  /* Rounded corners for the product containers */
+    border-radius: 10px;  
     background-color: white;
-    overflow: hidden;  /* Ensures no content spills out */
+    overflow: hidden;  
 }
 
 .product img {
-    width: 100%;  /* Makes the image take the full width of its container */
-    height: auto;  /* Maintains the aspect ratio of the image */
-    border-bottom: 1px solid #ccc;  /* Adds a subtle line between the image and the text */
+    width: 100%;  
+    height: auto;  
+    border-bottom: 1px solid #ccc;  
 }
 
 .product h3 {
-    margin: 10px 0;  /* Spacing above and below the title */
+    margin: 10px 0;  
 }
 
 .product p {
-    color: #333;  /* Dark grey color for the price text */
+    color: #333;  
 }
 .invoice-container {
     width: 80%;
@@ -178,7 +178,7 @@ button {
 button:hover {
     background-color: #369782;
 }
-/* Specific styles for the login page container */
+
 .login-container {
     width: 100%;
     max-width: 360px;
@@ -219,9 +219,9 @@ button:hover {
     background-color: #369782;
 }
 
-/* Existing styles remain unchanged, new section added below */
 
-/* Specific styles for the login page container */
+
+
 .login-container {
     width: 100%;
     max-width: 360px;
@@ -264,27 +264,27 @@ button:hover {
 
 /* Section for Featured Products */
 .featured-products {
-    text-align: center;  /* Center aligns everything in the featured products container */
-    margin: 40px 0;  /* Adds vertical spacing before and after the section */
+    text-align: center;  
+    margin: 40px 0;  
 }
 
 .featured-products h1 {
-    font-size: 24px;  /* Sets the font size for the heading */
-    color: #333;  /* Dark grey color for better readability */
-    margin-bottom: 20px;  /* Spacing below the heading */
+    font-size: 24px;  /
+    color: #333;  
+    margin-bottom: 20px;  
 }
 
 .featured-products img {
-    display: block;  /* Makes image a block to center it correctly */
-    margin: 0 auto;  /* Centers the image horizontally */
-    max-width: 300px;  /* Maximum width for the image */
-    height: auto;  /* Keeps image aspect ratio intact */
+    display: block;  
+    margin: 0 auto;  
+    max-width: 300px;  
+    height: auto;  
 }
 /* Ensure the overall container for products is centered and well-spaced */
 .products {
-    text-align: center;  /* Centers all text and content within */
-    padding: 2rem;  /* Provides padding around the section for spacing */
-    background-color: #f9f9f9;  /* Gives a light background color for differentiation, optional */
+    text-align: center;  
+    padding: 2rem;  
+    background-color: #f9f9f9;  
 }
 
 /* Specific styling for the product-container */
@@ -296,12 +296,12 @@ button:hover {
 }
 
 .product {
-    width: 200px;  /* Fixed width for each product */
-    border: 1px solid #ccc;  /* Border for product cards */
+    width: 200px;  
+    border: 1px solid #ccc;  
     padding: 10px;
     border-radius: 10px;  /* Rounded corners for product cards */
     background-color: white;  /* White background for each product */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /*shadow*/
 }
 
 .product img {
@@ -310,28 +310,28 @@ button:hover {
     border-bottom: 1px solid #ccc;  /* Separates image from text */
 }
 
-/* Enhances the visual hierarchy of the section heading */
+
 .products h2 {
-    margin-bottom: 20px;  /* Space below the heading */
-    color: #333;  /* Dark grey for visibility */
-    font-size: 24px;  /* Sufficient size for heading */
+    margin-bottom: 20px;  
+    color: #333;  
+    font-size: 24px;  
 }
 .product {
-    width: 300px;  /* Fixed width for all product containers */
-    margin: 20px;  /* Spacing between product containers */
+    width: 300px;  
+    margin: 20px;  
     text-align: center;
     border: 1px solid #ccc;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;  /* Rounded corners for the product containers */
+    border-radius: 10px;  
     background-color: white;
-    overflow: hidden;  /* Ensures no content spills out */
+    overflow: hidden;  
 }
 
 .product img {
-    width: 100%;  /* Makes the image take the full width of its container */
-    height: auto;  /* Maintains the aspect ratio of the image */
-    border-bottom: 1px solid #ccc;  /* Adds a subtle line between the image and the text */
+    width: 100%;  
+    height: auto;  
+    border-bottom: 1px solid #ccc;  
 }
 
 .product h3 {
