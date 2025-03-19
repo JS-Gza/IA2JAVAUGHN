@@ -78,9 +78,4 @@ function addToCart(name, price) {
     localStorage.setItem('cart', JSON.stringify(cart));
     alert(`You added ${name} to cart`);  // Alert showing the item was added
 }
-<script>
-window.onload = function() {
-    
-    window.location.href = 'login.html'; 
-};
-</script>
+
