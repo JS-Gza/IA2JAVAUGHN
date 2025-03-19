@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page - Yamcho Market</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="https://i.ibb.co/ZRZ0mXVD/Screenshot-2025-03-18-193331.png" alt="Yamcho Market Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <a href="invoice.html"><img src="https://i.ibb.co/Lhd3vLrW/shopping-cart.png" alt="View Cart" class="cart-icon"></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="products">
+            <h1>Our Products</h1>
+            <div class="product-container">
+                <div class="product" ondblclick="addToCart('Bananas', 100)">
+                    <img src="https://i.ibb.co/1GsVScwX/bananer.webp" alt="Bananas">
+                    <h3>Bananas</h3>
+                    <p>$100 per lb</p>
+                </div>
+                
+                <div class="product" ondblclick="addToCart('Yams', 300)">
+                    <img src="Image/yam.jpg" alt="Yams">
+                    <h3>Yams</h3>
+                    <p>$300 per lb</p>
+                </div>
+                <div class="product" ondblclick="addToCart('Tomatoes', 250)">
+                    <img src="Image/tomato.jpg" alt="Tomatoes">
+                    <h3>Tomatoes</h3>
+                    <p>$250 per lb</p>
+                </div>
+                <div class="product" ondblclick="addToCart('Onions', 120)">
+                    <img src="Image/onion.jpg" alt="Onions">
+                    <h3>Onions</h3>
+                    <p>$120 per lb</p>
+                </div>
+                <div class="product" ondblclick="addToCart('Lettuce', 200)">
+                    <img src="Image/lettuce.jpg" alt="Lettuce">
+                    <h3>Lettuce</h3>
+                    <p>$200 per head</p>
+                </div>
+                <div class="product" ondblclick="addToCart('Carrots', 300)">
+                    <img src="Image/carrot.jpg" alt="Carrots">
+                    <h3>Carrots</h3>
+                    <p>$300 per lb</p>
+                </div>
+                <div class="product" ondblclick="addToCart('Ackee', 200)">
+                    <img src="Image/ackee.jpg" alt="Ackee">
+                    <h3>Ackee</h3>
+                    <p>$200 per can</p>
+                </div>
+                <div class="product" ondblclick="addToCart('Grapes', 290)">
+                    <img src="Image/grape.jpg" alt="Grapes">
+                    <h3>Grapes</h3>
+                    <p>$290 per lb</p>
+                </div>
+                <div class="product" ondblclick="addToCart('Potatoes', 200)">
+                    <img src="Image/potato.jpg" alt="Potatoes">
+                    <h3>Potatoes</h3>
+                    <p>$200 per lb</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Yamcho Market. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

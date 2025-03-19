@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice - Yamcho Market</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="invoice-container">
+        <h2>Invoice</h2>
+        <table id="invoiceTable">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price per Unit</th>
+                    <th>Total Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Items will be added here dynamically -->
+            </tbody>
+        </table>
+        <div class="total">
+            <strong>Total:</strong> <span id="totalPrice">$0.00</span>
+        </div>
+        <button onclick="window.print();">Print Invoice</button>
+        <button onclick="clearInvoice();">Clear Invoice</button>  <!-- New button for clearing the invoice -->
+        <button onclick="checkout();">Checkout</button>  <!-- New button for checking out -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
