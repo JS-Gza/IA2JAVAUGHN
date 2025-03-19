@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (username === correctUsername && password === correctPassword) {
             alert('Login successful! Redirecting...');
-            window.location.href = 'index.html'; // Redirect to the home page on success
+            window.location.href = 'home.html'; // Redirect to the home page on success
         } else {
             alert('Incorrect username or password.'); // Inform the user about wrong credentials
         }
