@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log("Welcome to Yamcho Market!");
 
-    // Handle navigation for the Shop Now button
+    //  navigation for the Shop Now button
     const shopNowButton = document.querySelector('.shop-button');
     if (shopNowButton) {
         shopNowButton.addEventListener('click', function() {
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Populate the invoice table if it exists
+    // Populate the invoice table 
     const tableBody = document.getElementById('invoiceTable') ? document.getElementById('invoiceTable').getElementsByTagName('tbody')[0] : null;
     if (tableBody) {
         const cart = JSON.parse(localStorage.getItem('cart')) || [];
@@ -76,5 +76,5 @@ function addToCart(name, price) {
         cart.push({ name, price, quantity: 1 });
     }
     localStorage.setItem('cart', JSON.stringify(cart));
-    alert(`You added ${name} to cart`);  // Alert showing the item added
+    alert(`You added ${name} to cart`);  // Alert showing the item was added
 }
